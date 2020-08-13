@@ -1,0 +1,18 @@
+.mainArticle__newsSection{
+    color: hsl(0, 100%, 43%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: newssection;
+}
+
+.mainArticle__date{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: colophon;
+}
+
+.mainArticle__comments{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: commentcount;
+    text-align: right;
+}
