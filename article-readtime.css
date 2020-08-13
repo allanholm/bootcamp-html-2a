@@ -1,0 +1,10 @@
+.articleHeader__readTime{
+    color: hsl(0, 0%, 50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-area: teaser;
+}
+
+.articleHeader__readTime--red{
+    color: hsl(0, 100%, 43%);
+    padding-right: 1em;
+}
