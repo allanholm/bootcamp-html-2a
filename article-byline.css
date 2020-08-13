@@ -1,0 +1,17 @@
+.mainArticle__byline{
+    grid-area: byline;
+    display: grid;
+    grid-template-areas: "photo name"
+                        "photo contact";
+}
+
+.byline__image{
+    grid-area: photo;
+    border-radius: 50%;
+}
+
+.byline__contact{
+    grid-area: contact;
+    display: flex;
+    
+}
