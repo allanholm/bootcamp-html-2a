@@ -1,5 +1,6 @@
 @import './heading.css';
 @import './article-summary.css';
+@import './article-readtime.css';
 
 .mainArticle__articleHeader {
 	grid-area: teaser;
