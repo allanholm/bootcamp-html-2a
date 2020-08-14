@@ -1,0 +1,26 @@
+.mainArticle__content{
+    grid-area: content;
+    color: hsl(0, 0%, 20%);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.93em;
+}
+
+.content__some--float{
+    float: right;
+}
+
+.content__some--float button{
+    color: hsl(0, 0%, 100%);
+}
+
+.content__someFb{
+    background-color: hsl(221, 61%, 60%);
+}
+
+.content__someTw{
+    background-color: hsl( 206, 82%, 63%);
+}
+
+.content__email{
+    background-color: hsl(0, 5%, 55%);
+}

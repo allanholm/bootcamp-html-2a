@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Information artikel</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
 		<img class="header__image--center" src="images/information-logo.png" alt="logo">
 		<nav>
-			<ul class="">
+			<ul class="header__nav--border">
 				<li><a href="#">Nyhedsbreve</a></li>
 				<li><a href="#">Podcast</a></li>
 				<li><a class="header__link--red" href="#">Køb abonnement</a></li>
@@ -30,7 +31,7 @@
 				<figcaption class="coverPhoto__caption">
 					<p class="caption__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt ipsum optio provident amet libero aspernatur mollitia architecto soluta, reprehenderit nisi ipsam. Sint laborum deleniti quas saepe quod at laudantium quibusdam.</p>
 					<address class="caption__photographer">
-						<img src="http://via.placeholder.com/12.png" alt="camera icon">
+						<i class="fa fa-camera"></i>
 						Peter Nygaard Christensen
 					</address>
 				</figcaption>
@@ -38,18 +39,35 @@
 			</figure>
 
 			<p class="mainArticle__newsSection">Udland</p>
-			<p class="mainArticle__date"><img src="https://via.placeholder.com/12.png" alt="clock"> 7.maj 2018</p>
-			<p class="mainArticle__comments"><img src="https://via.placeholder.com/12.png" alt="chatbubbles"> Kommentarer (2)</p>
+			<p class="mainArticle__date"><i class="fa fa-watch"></i> 7.maj 2018</p>
+			<p class="mainArticle__comments"><i class="fa fa-comments"></i> Kommentarer (2)</p>
 
-			<section class="mainArticle__byline">
+			<section class="mainArticle__byline"><!--//TODO float image og drop grid-->
 				<img class="byline__image" src="http://via.placeholder.com/60.png" alt="author avatar">
 				<p class="byline__name">Jakob Stein</p>
 				<div class="byline__contact">
-					<p class="contact__emailText"><img class="contact__emailIcon" src="http://via.placeholder.com/12.png" alt="email icon">Email</p>
-					<p class="contact__twitterText"><img class="contact__twitterIcon" src="http://via.placeholder.com/12.png" alt="twitter icon">Twitter</p>
+					<p class="contact__emailText"><i class="fa fa-at"></i> Email</p>
+					<p class="contact__twitterText"><i class="fa fa-twitter"></i> Twitter</p>
 				</div>
 				
 			</section>
+
+			<div class="mainArticle__content">
+				<div class="content__some--float">
+					<button class="content__email"><i class="fa fa-at"></i> EMAIL</button>
+					<button class="content__someTw"><i class="fa fa-twitter"></i> TWEET</button>
+					<button class="content__someFb"><i class="fa fa-facebook-square"></i> DEL</button>	
+				</div>
+				<p>>>Jeg tænker, at vi lige taler os varme sammen, før vi begynder på interviewt,<< siger Jens Müller, tals for det russiske gasfirma Nord Stream 2 AG. Vi sidder en gruppe journalister i en bus på vej til en gasterminal i Rotterdam, inviteret af folkene bag den kommende russiske gasrørledning, Nord Stream 2 (NS2), der efter planen skal krydse dansk farvand.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nemo hic quo ratione unde eaque dolor est, iste eius, numquam et blanditiis eum consequatur. Molestiae expedita porro nobis eligendi ad!</p>
+				<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, exercitationem, sit et optio incidunt quis sed quasi ratione at accusamus deserunt molestiae quam tenetur. Amet eius blanditiis alias accusantium hic?</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione numquam maxime consequatur deserunt, commodi eos est deleniti aliquam aperiam obcaecati ab incidunt in quis dolores minima sed tempore eaque! Voluptatibus.</p>
+				<section class="mainArticle__subOverlay">
+					<h2>Vores abonnenter kalder os kritisk, seriøs og troværdig. Se om du er enig...</h2>
+					<button>KLIK HER</button>
+					<p>Allerede abonnent? <a href="#">Log ind her</a></p>
+				</section>
+			</div>
 		</article>
 
 </body>

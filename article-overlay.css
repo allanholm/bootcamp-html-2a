@@ -1,0 +1,12 @@
+.mainArticle__subOverlay button{
+    background: hsl(0, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.mainArticle__subOverlay{
+    text-align: center;
+}
